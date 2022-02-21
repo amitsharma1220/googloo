@@ -73,7 +73,7 @@ export const SearchPage = () => {
                     </div>
                 </div>
             </div>
-            {term && (
+            {data && (
                 <div className='searchPage_results'>
                     <p className='searchPage_resultCount'>
                         About {data?.searchInformation.formattedTotalResults} results ({data.searchInformation.formattedSearchTime} seconds) for {term}
